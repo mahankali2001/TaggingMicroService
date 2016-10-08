@@ -110,6 +110,10 @@
       <Name>Utility</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Postman\Tagging.postman_collection.json" />
+    <None Include="Postman\XYZ_DEV_00.postman_environment.json" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
